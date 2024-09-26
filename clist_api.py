@@ -6,9 +6,6 @@ import os
 # region # User processes
 
 def get_user_account_by_handle(username:str, resource_id:int):
-    '''
-    This 
-    '''
     try:
         url = f"https://clist.by/api/v4/json/account/?username=Amritanshu&api_key={os.getenv("clist_api_key")}&handle={username}&resource_id={resource_id}"
         return url
