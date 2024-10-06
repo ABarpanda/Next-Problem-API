@@ -7,7 +7,7 @@ import os
 
 def get_user_account_by_handle(username:str, resource_id:int):
     try:
-        url = f"https://clist.by/api/v4/json/account/?username=Amritanshu&api_key={os.getenv("clist_api_key")}&handle={username}&resource_id={resource_id}"
+        url = f"https://clist.by/api/v4/json/account/?username={os.getenv("clist_username")}&api_key={os.getenv("clist_api_key")}&handle={username}&resource_id={resource_id}"
         return url
     except:
         print(f"The problem is in get_user_account_by_handle")
@@ -15,7 +15,7 @@ def get_user_account_by_handle(username:str, resource_id:int):
     
 def get_user_url_by_id(user_id:int):
     try:
-        url = f"https://clist.by/api/v4/json/resource/{user_id}/?username=Amritanshu&api_key={os.getenv("clist_api_key")}"
+        url = f"https://clist.by/api/v4/json/resource/{user_id}/?username={os.getenv("clist_username")}&api_key={os.getenv("clist_api_key")}"
         return url
     except:
         print(f"The problem is in get_user_url_by_id")
@@ -40,7 +40,7 @@ def get_user_rating_by_handle(username:str, resource_id:int)->int:
 def access_user_data(username:str, resource_id:int)->str:
     configure()
     s = requests.Session()
-    # username = "Amritanshu_Barpanda"
+    # username = "{os.getenv("username")}_Barpanda"
     method = get_user_account_by_handle(username,resource_id)
     account_by_handle = pre_processing(s, method)
     final = json.dumps(account_by_handle, indent=4)
@@ -54,7 +54,7 @@ def access_user_data(username:str, resource_id:int)->str:
 
 def get_resource_url_by_id(resource_id:int)->str:
     try:
-        url = f"https://clist.by/api/v4/json/resource/{resource_id}/?username=Amritanshu&api_key={os.getenv("clist_api_key")}"
+        url = f"https://clist.by/api/v4/json/resource/{resource_id}/?username={os.getenv("clist_username")}&api_key={os.getenv("clist_api_key")}"
         # print(f"url = {url}")
         return url
     except:
@@ -73,7 +73,7 @@ def get_resource_name_by_id(resource_id:int)->str:
 def access_resource_data(resource_id:int)->str:
     configure()
     s = requests.Session()
-    # username = "Amritanshu_Barpanda"
+    # username = "{os.getenv("username")}_Barpanda"
     resource_url = get_resource_url_by_id(resource_id)
     resource_url_by_id = pre_processing(s, resource_url)
     final = json.dumps(resource_url_by_id, indent=4)
@@ -86,7 +86,7 @@ def access_resource_data(resource_id:int)->str:
 def get_problems_by_handle(handle:str, resource_id:int,lt:int, gt:int,limit:int=100):
     try:
         resource_name = get_resource_name_by_id(resource_id)
-        url = f"https://clist.by/api/v4/json/problem/?username=Amritanshu&api_key={os.getenv("clist_api_key")}&limit={limit}&total_count=true&resource={resource_name}&rating__gt={gt}&rating__lt={lt}"
+        url = f"https://clist.by/api/v4/json/problem/?username={os.getenv("clist_username")}&api_key={os.getenv("clist_api_key")}&limit={limit}&total_count=true&resource={resource_name}&rating__gt={gt}&rating__lt={lt}"
         # print(url)
         return url
     except:
@@ -96,7 +96,7 @@ def get_problems_by_handle(handle:str, resource_id:int,lt:int, gt:int,limit:int=
 def access_problems_data(resource_id:int,lt:int,gt:int)->str:
     configure()
     s = requests.Session()
-    # username = "Amritanshu_Barpanda"
+    # username = "{os.getenv("username")}_Barpanda"
     limit = 50
     problems_url = get_problems_by_handle("Something",resource_id,lt,gt,limit)
     # print(problems_url)
@@ -106,7 +106,7 @@ def access_problems_data(resource_id:int,lt:int,gt:int)->str:
 
 def get_coder_id_by_name(name:str)->str:
     try:
-        url = f"https://clist.by/api/v4/json/coder/?username=Amritanshu&api_key={os.getenv("clist_api_key")}&handle={name}"
+        url = f"https://clist.by/api/v4/json/coder/?username={os.getenv("clist_username")}&api_key={os.getenv("clist_api_key")}&handle={name}"
         # print(url)
         return url
     except:
