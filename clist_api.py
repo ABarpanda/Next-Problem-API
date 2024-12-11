@@ -345,7 +345,7 @@ def get_problem_stats(handle:str, resource_id:int)->str:
     try:
         account_id = get_user_id_by_handle(handle,resource_id)
         url = f"https://clist.by/api/v4/json/statistics/?username=Amritanshu&api_key={os.getenv("clist_api_key")}&with_problems=true&account_id={account_id}"
-        print(url)
+        # print(url)
         return url
     except:
         print(f"The problem is in get_problem_stats")
@@ -389,14 +389,14 @@ def configure():
     """
     load_dotenv()
 
+import requests
+
 def pre_processing(session, url):
     """
     Fetches data from a given URL and attempts to parse the response as JSON.
     This function makes an HTTP GET request to the specified URL using the provided session.
     If the response can be successfully parsed as JSON, the function returns the parsed data.
-    If parsing fails, the function prints the raw response text for debugging.
-    The function ensures that the response from the server is processed in a standardized format 
-    for further operations.
+    If parsing fails, the function handles exceptions gracefully and logs the issue.
     
     Parameters:
     - session (requests.Session): The session object to use for making HTTP requests.
@@ -406,11 +406,20 @@ def pre_processing(session, url):
     - dict: The parsed JSON data if the request is successful and valid.
     - None: If the request fails or the JSON parsing fails, returns None.
     """
-    r = session.get(url)
     try:
-        return r.json()
-    except:
-        print(r.text)
+        response = session.get(url)
+        response.raise_for_status()
+        return response.json()
+    except requests.exceptions.HTTPError as http_err:
+        print(f"HTTP error occurred: {http_err}")
+    except requests.exceptions.RequestException as req_err:
+        print(f"Request error occurred: {req_err}")
+    except ValueError as json_err:
+        print(f"JSON parsing error occurred: {json_err}")
+        print(f"Response text: {response.text}")
+    except Exception as err:
+        print(f"An unexpected error occurred: {err}")
+    return None
 
 def save_to_file(data):
     """
@@ -496,7 +505,7 @@ def processing(handle: str, method: int, resource_id: int, rating_delta: int = 2
         data = access_user_data(handle, resource_id)
         save_to_file(data)
         json_data = json.loads(data)
-        answer = json_data["objects"][0]
+        answer:dict = json_data["objects"][0]
         return answer
     if method == 2:  # int
         """
@@ -524,7 +533,7 @@ def processing(handle: str, method: int, resource_id: int, rating_delta: int = 2
         save_to_file(data)
         json_data = json.loads(data)
         answer = json_data["objects"]
-        return answer
+        return json_data
     if method == 9:  # json
         """
         Retrieves data about a specific resource.
@@ -577,4 +586,4 @@ def main(handle:str,method:int,resource_id:int,rating_delta:int=100):
     return processing(handle,method,resource_id,rating_delta)
 
 # if __name__ =="__main__":
-#     main()
+#     print(main("Amritanshu_Barpanda",1,1))
