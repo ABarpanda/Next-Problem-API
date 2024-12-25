@@ -27,6 +27,7 @@ def get_user_account_by_handle(username:str, resource_id:int)->str:
     """
     try:
         url = f"https://clist.by/api/v4/json/account/?username={os.getenv("clist_username")}&api_key={os.getenv("clist_api_key")}&handle={username}&resource_id={resource_id}"
+        # print(url)
         return url
     except:
         print(f"The problem is in get_user_account_by_handle")
@@ -389,8 +390,6 @@ def configure():
     """
     load_dotenv()
 
-import requests
-
 def pre_processing(session, url):
     """
     Fetches data from a given URL and attempts to parse the response as JSON.
@@ -434,7 +433,6 @@ def save_to_file(data):
     """
     with open("clist_result.json", "w") as outfile:
         outfile.write(data)
-
 
 def processing(handle: str, method: int, resource_id: int, rating_delta: int = 200):
     """
@@ -483,7 +481,7 @@ def processing(handle: str, method: int, resource_id: int, rating_delta: int = 2
             list: A list of problems in JSON format within the specified rating range.
         """
         rating = processing(handle, 100, resource_id)
-        print("rating = ", rating)
+        # print("rating = ", rating)
         lt = rating  # + rating_delta
         gt = rating - rating_delta
         data = access_problems_data(resource_id, lt, gt)
@@ -585,5 +583,5 @@ def processing(handle: str, method: int, resource_id: int, rating_delta: int = 2
 def main(handle:str,method:int,resource_id:int,rating_delta:int=100):
     return processing(handle,method,resource_id,rating_delta)
 
-# if __name__ =="__main__":
-#     print(main("Amritanshu_Barpanda",1,1))
+if __name__ =="__main__":
+    print(main("Amritanshu_Barpanda",101,1))
