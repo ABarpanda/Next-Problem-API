@@ -1,4 +1,3 @@
-from typing import List
 import json
 import random
 import clist_api
@@ -53,7 +52,7 @@ class Main:
                     - "Problem rating": The difficulty rating of the problem.
             """
             rating_delta = 200
-            problem_list:List = clist_api.main(self.handle,101,self.resource_id,rating_delta)
+            problem_list = clist_api.main(self.handle,101,self.resource_id,rating_delta)
             # problem_list.sort(key=lambda x: x["rating"],reverse=False)
 
             for i in problem_list:
@@ -61,7 +60,7 @@ class Main:
                     problem_list.pop(i)
 
             l = len(problem_list)
-            random_question_numbers_list:List =  random.sample(range(l), 10)
+            random_question_numbers_list=  random.sample(range(l), 10)
             # print(random_question_numbers_list)
             return_list = []
             for i in random_question_numbers_list:
