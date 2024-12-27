@@ -37,7 +37,7 @@ async def global_exception_handler(request: Request, exc: Exception):
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the New-Problem API!"}
+    return {"message": "Welcome to the Next-Problem API!"}
 
 @app.get("/{method}/")
 def get_method(handle: str, method: int, resource_id: int):
