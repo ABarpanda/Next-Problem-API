@@ -1,3174 +1,1512 @@
 {
     "meta": {
         "estimated_count": null,
-        "limit": 100,
-        "next": "/api/v4/statistics/?format=json&username=Amritanshu&username=Amritanshu&api_key=7d7f5dc7d8b450f3c9d03ae0512e1c0b81e33d7c&api_key=7d7f5dc7d8b450f3c9d03ae0512e1c0b81e33d7c&with_problems=true&with_problems=true&account_id=6120505&account_id=6120505&limit=100&offset=100",
+        "limit": 50,
+        "next": "/api/v4/problem/?format=json&username=Amritanshu&username=Amritanshu&api_key=7d7f5dc7d8b450f3c9d03ae0512e1c0b81e33d7c&api_key=7d7f5dc7d8b450f3c9d03ae0512e1c0b81e33d7c&total_count=true&total_count=true&resource=codeforces.com&resource=codeforces.com&rating__gt=585&rating__gt=585&rating__lt=785&rating__lt=785&limit=50&offset=50",
         "offset": 0,
         "previous": null,
-        "total_count": null
+        "total_count": 341
     },
     "objects": [
         {
-            "account_id": 6120505,
-            "contest_id": 51301009,
-            "date": "2024-05-02T17:00:00",
-            "event": "Codeforces Round 943 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 63542398,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 259262125,
-                        "url": "https://codeforces.com/contest/1968/submission/259262125",
-                        "verdict": "OK"
-                    }
-                },
-                "B": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": null,
-                        "result": "-",
-                        "submission_id": 259264944,
-                        "test": 1,
-                        "url": "https://codeforces.com/contest/1968/submission/259264944",
-                        "verdict": "RE"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 52173687,
-            "date": "2024-06-25T16:35:00",
-            "event": "Codeforces Round 955 (Div. 2, with prizes from NEAR!)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 65610939,
-            "more_fields": null,
-            "new_rating": 921,
-            "old_rating": 868,
-            "place": 9918,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": 488.0,
-                    "submission_id": 267331324,
-                    "time": "00:06",
-                    "time_in_seconds": 362,
-                    "url": "https://codeforces.com/contest/1982/submission/267331324",
-                    "verdict": "OK"
-                }
-            },
-            "rating_change": 53,
-            "score": 488.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 54435689,
-            "date": "2024-10-26T16:35:00",
-            "event": "Codeforces Round 982 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 70259822,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": 300.0,
-                        "submission_id": 288408626,
-                        "url": "https://codeforces.com/contest/2027/submission/288408626",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 49849093,
-            "date": "2024-02-27T16:50:00",
-            "event": "Codeforces Round 929 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 61751648,
-            "more_fields": null,
-            "new_rating": 893,
-            "old_rating": 976,
-            "place": 23900,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 248545584,
-                    "time": "00:32",
-                    "time_in_seconds": 1932,
-                    "url": "https://codeforces.com/contest/1933/submission/248545584",
-                    "verdict": "OK"
-                }
-            },
-            "rating_change": -83,
-            "score": 1.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 50896130,
-            "date": "2024-04-08T16:50:00",
-            "event": "Codeforces Round 938 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62840223,
-            "more_fields": null,
-            "new_rating": 957,
-            "old_rating": 932,
-            "place": 13292,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 255647500,
-                    "time": "00:07",
-                    "time_in_seconds": 454,
-                    "url": "https://codeforces.com/contest/1955/submission/255647500",
-                    "verdict": "OK"
-                },
-                "B": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+1",
-                    "submission_id": 255715170,
-                    "time": "01:18",
-                    "time_in_seconds": 4689,
-                    "url": "https://codeforces.com/contest/1955/submission/255715170",
-                    "verdict": "OK"
-                }
-            },
-            "rating_change": 25,
-            "score": 2.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 52315770,
-            "date": "2024-07-15T16:35:00",
-            "event": "Codeforces Round 958 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66280795,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": 150.0,
-                        "submission_id": 271164951,
-                        "url": "https://codeforces.com/contest/1988/submission/271164951",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 51595363,
-            "date": "2024-05-17T16:35:00",
-            "event": "Codeforces Round 945 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 63803251,
-            "more_fields": null,
-            "new_rating": 860,
-            "old_rating": 966,
-            "place": 11970,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "-3",
-                    "submission_id": 261375751,
-                    "test": 2,
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": 150.0,
-                        "submission_id": 262049955,
-                        "url": "https://codeforces.com/contest/1973/submission/262049955",
-                        "verdict": "OK"
-                    },
-                    "url": "https://codeforces.com/contest/1973/submission/261375751",
-                    "verdict": "WA"
-                }
-            },
-            "rating_change": -106,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 30142461,
-            "date": "2021-10-13T16:50:00",
-            "event": "Codeforces Round #748 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66710925,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": null,
-                        "result": "-",
-                        "submission_id": 274057528,
-                        "test": 1,
-                        "url": "https://codeforces.com/contest/1593/submission/274057528",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 50616689,
-            "date": "2024-03-28T17:00:00",
-            "event": "Codeforces Round 937 (Div. 4)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62565665,
-            "more_fields": null,
-            "new_rating": 932,
-            "old_rating": 898,
-            "place": 13780,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 253665663,
-                    "time": "00:05",
-                    "time_in_seconds": 334,
-                    "url": "https://codeforces.com/contest/1950/submission/253665663",
-                    "verdict": "OK"
-                },
-                "B": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 253708668,
-                    "time": "00:27",
-                    "time_in_seconds": 1664,
-                    "url": "https://codeforces.com/contest/1950/submission/253708668",
-                    "verdict": "OK"
-                },
-                "C": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 253734510,
-                    "time": "00:42",
-                    "time_in_seconds": 2579,
-                    "url": "https://codeforces.com/contest/1950/submission/253734510",
-                    "verdict": "OK"
-                },
-                "D": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "-1",
-                    "submission_id": 253797729,
-                    "test": 7,
-                    "url": "https://codeforces.com/contest/1950/submission/253797729",
-                    "verdict": "TLE"
-                }
-            },
-            "rating_change": 34,
-            "score": 3.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 49674267,
-            "date": "2024-02-13T16:50:00",
-            "event": "Codeforces Round 925 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 56375906,
-            "more_fields": null,
-            "new_rating": 926,
-            "old_rating": 837,
-            "place": 15447,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 246137960,
-                    "time": "00:17",
-                    "time_in_seconds": 1038,
-                    "url": "https://codeforces.com/contest/1931/submission/246137960",
-                    "verdict": "OK"
-                },
-                "B": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 246173681,
-                    "time": "00:41",
-                    "time_in_seconds": 2486,
-                    "url": "https://codeforces.com/contest/1931/submission/246173681",
-                    "verdict": "OK"
-                }
-            },
-            "rating_change": 89,
-            "score": 2.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 53076246,
-            "date": "2024-08-06T17:00:00",
-            "event": "Codeforces Round 964 (Div. 4)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66907470,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 274954714,
-                        "url": "https://codeforces.com/contest/1999/submission/274954714",
-                        "verdict": "OK"
-                    }
-                },
-                "C": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 275021919,
-                        "url": "https://codeforces.com/contest/1999/submission/275021919",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5624005,
-            "date": "2010-02-19T14:00:00",
-            "event": "Codeforces Beta Round #1",
-            "handle": "Amritanshu_Barpanda",
-            "id": 56639660,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+1",
-                        "submission_id": 241153766,
-                        "url": "https://codeforces.com/contest/1/submission/241153766",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 41376447,
-            "date": "2023-03-18T14:20:00",
-            "event": "Codeforces Round 858 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66328660,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 271399089,
-                        "url": "https://codeforces.com/contest/1806/submission/271399089",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 33724043,
-            "date": "2022-03-24T16:35:00",
-            "event": "CodeTON Round 1 (Div. 1 + Div. 2, Rated, Prizes!)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 70360624,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 288660242,
-                        "url": "https://codeforces.com/contest/1656/submission/288660242",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 52696797,
-            "date": "2024-08-04T16:35:00",
-            "event": "Codeforces Round 963 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66840152,
-            "more_fields": null,
-            "new_rating": 741,
-            "old_rating": 728,
-            "place": 16316,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": 466.0,
-                    "submission_id": 274356838,
-                    "time": "00:17",
-                    "time_in_seconds": 1039,
-                    "url": "https://codeforces.com/contest/1993/submission/274356838",
-                    "verdict": "OK"
-                }
-            },
-            "rating_change": 13,
-            "score": 466.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 52280914,
-            "date": "2024-06-23T17:05:00",
-            "event": "Codeforces Round 954 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 65550927,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 267292602,
-                        "url": "https://codeforces.com/contest/1986/submission/267292602",
-                        "verdict": "OK"
-                    }
-                },
-                "B": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 267296665,
-                        "url": "https://codeforces.com/contest/1986/submission/267296665",
-                        "verdict": "OK"
-                    }
-                },
-                "C": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "-1",
-                        "submission_id": 267939635,
-                        "test": 3,
-                        "url": "https://codeforces.com/contest/1986/submission/267939635",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 41384275,
-            "date": "2023-03-19T17:10:00",
-            "event": "Codeforces Round 859 (Div. 4)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66222469,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "D": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": null,
-                        "result": "-",
-                        "submission_id": 270514245,
-                        "test": 2,
-                        "url": "https://codeforces.com/contest/1807/submission/270514245",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 42152542,
-            "date": "2023-04-06T16:50:00",
-            "event": "Educational Codeforces Round 146 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66222470,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 270510316,
-                        "url": "https://codeforces.com/contest/1814/submission/270510316",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 52721362,
-            "date": "2024-07-18T16:35:00",
-            "event": "Codeforces Round 959 sponsored by NEAR (Div. 1 + Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66389089,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": 150.0,
-                        "submission_id": 271512560,
-                        "url": "https://codeforces.com/contest/1994/submission/271512560",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 45839888,
-            "date": "2023-09-07T16:50:00",
-            "event": "Codeforces Round 895 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 69205420,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "D": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "PyPy 3-64",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 279872414,
-                        "url": "https://codeforces.com/contest/1872/submission/279872414",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 27368536,
-            "date": "2021-05-28T16:35:00",
-            "event": "Codeforces Round #723 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 69205421,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "C1": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "PyPy 3-64",
-                        "partial": null,
-                        "result": "-",
-                        "submission_id": 279806206,
-                        "test": 1,
-                        "url": "https://codeforces.com/contest/1526/submission/279806206",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 54382520,
-            "date": "2024-10-14T16:35:00",
-            "event": "Educational Codeforces Round 170 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 69875556,
-            "more_fields": null,
-            "new_rating": 788,
-            "old_rating": 743,
-            "place": 12738,
-            "problems": {
-                "A": {
-                    "language": "PyPy 3-64",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 285859602,
-                    "time": "00:16",
-                    "time_in_seconds": 1001,
-                    "url": "https://codeforces.com/contest/2025/submission/285859602",
-                    "verdict": "OK"
-                },
-                "B": {
-                    "language": "PyPy 3-64",
-                    "partial": null,
-                    "result": "-",
-                    "submission_id": 285881624,
-                    "test": 1,
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "PyPy 3-64",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 286997325,
-                        "url": "https://codeforces.com/contest/2025/submission/286997325",
-                        "verdict": "OK"
-                    },
-                    "url": "https://codeforces.com/contest/2025/submission/285881624",
-                    "verdict": "TLE"
-                },
-                "C": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "PyPy 3-64",
-                        "partial": false,
-                        "result": "-2",
-                        "submission_id": 287008495,
-                        "test": 2,
-                        "url": "https://codeforces.com/contest/2025/submission/287008495",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": 45,
-            "score": 1.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 35468214,
-            "date": "2022-06-25T16:50:00",
-            "event": "Codeforces Global Round 21",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66244266,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": null,
-                        "result": "-",
-                        "submission_id": 270761475,
-                        "test": 2,
-                        "url": "https://codeforces.com/contest/1696/submission/270761475",
-                        "verdict": "RE"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 45799564,
-            "date": "2023-09-10T16:35:00",
-            "event": "Codeforces Round 896 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66244267,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 270634793,
-                        "url": "https://codeforces.com/contest/1869/submission/270634793",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 47459570,
-            "date": "2023-10-30T16:35:00",
-            "event": "Codeforces Round 907 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 69887288,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "PyPy 3-64",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 285396776,
-                        "url": "https://codeforces.com/contest/1891/submission/285396776",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 53615602,
-            "date": "2024-09-03T17:05:00",
-            "event": "Codeforces Round 971 (Div. 4)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 68796305,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": 17516,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 279489197,
-                    "time": "00:01",
-                    "time_in_seconds": 87,
-                    "url": "https://codeforces.com/contest/2009/submission/279489197",
-                    "verdict": "OK"
-                },
-                "B": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 279561364,
-                    "time": "00:37",
-                    "time_in_seconds": 2276,
-                    "url": "https://codeforces.com/contest/2009/submission/279561364",
-                    "verdict": "OK"
-                },
-                "D": {
-                    "language": "PyPy 3-64",
-                    "partial": false,
-                    "result": "-1",
-                    "submission_id": 279557422,
-                    "test": 2,
-                    "url": "https://codeforces.com/contest/2009/submission/279557422",
-                    "verdict": "WA"
-                }
-            },
-            "rating_change": null,
-            "score": 2.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 51317870,
-            "date": "2024-04-29T16:35:00",
-            "event": "Educational Codeforces Round 165 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 63487429,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+2",
-                        "submission_id": 258967415,
-                        "url": "https://codeforces.com/contest/1969/submission/258967415",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 51917045,
-            "date": "2024-06-03T16:50:00",
-            "event": "Codeforces Round 950 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 64908531,
-            "more_fields": null,
-            "new_rating": 868,
-            "old_rating": 853,
-            "place": 17786,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 263935054,
-                    "time": "00:26",
-                    "time_in_seconds": 1589,
-                    "url": "https://codeforces.com/contest/1980/submission/263935054",
-                    "verdict": "OK"
-                },
-                "B": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 263964584,
-                    "time": "00:52",
-                    "time_in_seconds": 3128,
-                    "url": "https://codeforces.com/contest/1980/submission/263964584",
-                    "verdict": "OK"
-                }
-            },
-            "rating_change": 15,
-            "score": 2.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 34900060,
-            "date": "2022-05-14T11:35:00",
-            "event": "Codeforces Round #791 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66445030,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 271982118,
-                        "url": "https://codeforces.com/contest/1679/submission/271982118",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 42033538,
-            "date": "2023-04-01T16:35:00",
-            "event": "April Fools Day Contest 2023",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901754,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 255142550,
-                        "url": "https://codeforces.com/contest/1812/submission/255142550",
-                        "verdict": "OK"
-                    }
-                },
-                "B": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "-",
-                        "submission_id": 255142778,
-                        "test": 5,
-                        "url": "https://codeforces.com/contest/1812/submission/255142778",
-                        "verdict": "WA"
-                    }
-                },
-                "J": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Mysterious Language",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 255143395,
-                        "url": "https://codeforces.com/contest/1812/submission/255143395",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623721,
-            "date": "2013-04-01T17:30:00",
-            "event": "April Fools Day Contest 2013",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901756,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "-",
-                        "submission_id": 254368541,
-                        "test": 1,
-                        "url": "https://codeforces.com/contest/290/submission/254368541",
-                        "verdict": "WA"
-                    }
-                },
-                "B": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "-",
-                        "submission_id": 254368611,
-                        "test": 4,
-                        "url": "https://codeforces.com/contest/290/submission/254368611",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 39025577,
-            "date": "2022-12-12T16:35:00",
-            "event": "Educational Codeforces Round 139 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901757,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "C++17 (GCC 7-32)",
-                        "partial": false,
-                        "result": "-",
-                        "submission_id": 254101765,
-                        "test": 4,
-                        "url": "https://codeforces.com/contest/1766/submission/254101765",
-                        "verdict": "TLE"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623649,
-            "date": "2013-11-11T10:00:00",
-            "event": "Codeforces Round #211 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901768,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "-",
-                        "submission_id": 253243283,
-                        "test": 7,
-                        "url": "https://codeforces.com/contest/363/submission/253243283",
-                        "verdict": "TLE"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 23855537,
-            "date": "2020-12-28T16:35:00",
-            "event": "Educational Codeforces Round 101 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901774,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "-",
-                        "submission_id": 252878991,
-                        "test": 2,
-                        "url": "https://codeforces.com/contest/1469/submission/252878991",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623694,
-            "date": "2013-06-14T17:30:00",
-            "event": "Codeforces Round #188 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901777,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "C++17 (GCC 7-32)",
-                        "partial": false,
-                        "result": "-",
-                        "submission_id": 252615034,
-                        "test": 8,
-                        "url": "https://codeforces.com/contest/318/submission/252615034",
-                        "verdict": "MLE"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 37846212,
-            "date": "2022-10-16T16:50:00",
-            "event": "Codeforces Round  #828 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901764,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "C": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "C++17 (GCC 7-32)",
-                        "partial": false,
-                        "result": "-",
-                        "submission_id": 251619302,
-                        "test": 1,
-                        "url": "https://codeforces.com/contest/1744/submission/251619302",
-                        "verdict": "CE"
-                    }
-                },
-                "D": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253445026,
-                        "url": "https://codeforces.com/contest/1744/submission/253445026",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623780,
-            "date": "2012-10-01T17:35:00",
-            "event": "Codeforces Round #142 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901793,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "C++20 (GCC 13-64)",
-                        "partial": false,
-                        "result": "-",
-                        "submission_id": 250577413,
-                        "test": 8,
-                        "url": "https://codeforces.com/contest/230/submission/250577413",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 45256895,
-            "date": "2023-08-05T16:35:00",
-            "event": "Codeforces Round 890 (Div. 2) supported by Constructor Institute",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901755,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "-",
-                        "submission_id": 254396954,
-                        "test": 2,
-                        "url": "https://codeforces.com/contest/1856/submission/254396954",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623727,
-            "date": "2013-03-13T17:30:00",
-            "event": "Codeforces Round #173 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901758,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253946493,
-                        "url": "https://codeforces.com/contest/282/submission/253946493",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 24573038,
-            "date": "2021-01-25T17:00:00",
-            "event": "Codeforces Round #697 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901759,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253644247,
-                        "url": "https://codeforces.com/contest/1475/submission/253644247",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 505309,
-            "date": "2014-03-22T17:30:00",
-            "event": "Codeforces Round #238 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901760,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253643536,
-                        "url": "https://codeforces.com/contest/405/submission/253643536",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 1396477,
-            "date": "2014-10-19T11:00:00",
-            "event": "Codeforces Round #274 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901761,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253486038,
-                        "url": "https://codeforces.com/contest/479/submission/253486038",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623745,
-            "date": "2013-01-16T17:30:00",
-            "event": "Codeforces Round #161 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901762,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253446583,
-                        "url": "https://codeforces.com/contest/263/submission/253446583",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623934,
-            "date": "2011-03-29T17:00:00",
-            "event": "Codeforces Beta Round #65 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901763,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253445901,
-                        "url": "https://codeforces.com/contest/71/submission/253445901",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623885,
-            "date": "2011-10-27T17:00:00",
-            "event": "Codeforces Beta Round #91 (Div. 2 Only)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901765,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253355706,
-                        "url": "https://codeforces.com/contest/122/submission/253355706",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 3327143,
-            "date": "2015-09-16T17:45:00",
-            "event": "Codeforces Round #320 (Div. 2) [Bayan Thanks-Round]",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901766,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253312605,
-                        "url": "https://codeforces.com/contest/579/submission/253312605",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623961,
-            "date": "2010-11-29T18:00:00",
-            "event": "Codeforces Beta Round #42 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901767,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253311059,
-                        "url": "https://codeforces.com/contest/43/submission/253311059",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623797,
-            "date": "2012-07-23T17:40:00",
-            "event": "Codeforces Round #130 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901769,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253241637,
-                        "url": "https://codeforces.com/contest/208/submission/253241637",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623848,
-            "date": "2012-03-04T20:00:00",
-            "event": "VK Cup 2012 Qualification Round 1",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901770,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253027959,
-                        "url": "https://codeforces.com/contest/158/submission/253027959",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623888,
-            "date": "2011-10-07T17:00:00",
-            "event": "Codeforces Beta Round #89 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901771,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253021898,
-                        "url": "https://codeforces.com/contest/118/submission/253021898",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623936,
-            "date": "2011-03-22T18:00:00",
-            "event": "Codeforces Beta Round #63 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901772,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 253021328,
-                        "url": "https://codeforces.com/contest/69/submission/253021328",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5694355,
-            "date": "2016-08-11T18:35:00",
-            "event": "Codeforces Round #367 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901773,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 252961768,
-                        "url": "https://codeforces.com/contest/706/submission/252961768",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623875,
-            "date": "2011-11-25T17:00:00",
-            "event": "Codeforces Beta Round #95 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901775,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 252715178,
-                        "url": "https://codeforces.com/contest/131/submission/252715178",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623847,
-            "date": "2012-03-06T17:00:00",
-            "event": "Codeforces Round #111 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901776,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 252713480,
-                        "url": "https://codeforces.com/contest/160/submission/252713480",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623873,
-            "date": "2011-12-03T17:00:00",
-            "event": "Codeforces Beta Round #96 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901778,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 252352442,
-                        "url": "https://codeforces.com/contest/133/submission/252352442",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623911,
-            "date": "2011-07-08T17:00:00",
-            "event": "Codeforces Beta Round #77 (Div. 2 Only)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901779,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 252350515,
-                        "url": "https://codeforces.com/contest/96/submission/252350515",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623773,
-            "date": "2012-10-21T09:10:00",
-            "event": "Codeforces Round #146 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901780,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 252349278,
-                        "url": "https://codeforces.com/contest/236/submission/252349278",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 6347632,
-            "date": "2016-11-15T18:35:00",
-            "event": "Codeforces Round #379 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901781,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 252042318,
-                        "url": "https://codeforces.com/contest/734/submission/252042318",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 36451400,
-            "date": "2022-08-04T16:35:00",
-            "event": "Educational Codeforces Round 133 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901782,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 251852440,
-                        "url": "https://codeforces.com/contest/1716/submission/251852440",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 37177898,
-            "date": "2022-09-04T18:35:00",
-            "event": "COMPFEST 14 - Preliminary Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901783,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 251612337,
-                        "url": "https://codeforces.com/contest/1725/submission/251612337",
-                        "verdict": "OK"
-                    }
-                },
-                "B": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 251609786,
-                        "url": "https://codeforces.com/contest/1725/submission/251609786",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623997,
-            "date": "2010-04-11T13:00:00",
-            "event": "Codeforces Beta Round #9 (Div. 2 Only)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901784,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 251560344,
-                        "url": "https://codeforces.com/contest/9/submission/251560344",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 32300765,
-            "date": "2022-01-10T16:50:00",
-            "event": "Codeforces Round #764 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901785,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "C++17 (GCC 7-32)",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 251286441,
-                        "url": "https://codeforces.com/contest/1624/submission/251286441",
-                        "verdict": "OK"
-                    }
-                },
-                "B": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 251292262,
-                        "url": "https://codeforces.com/contest/1624/submission/251292262",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 1188094,
-            "date": "2014-08-20T17:30:00",
-            "event": "Codeforces Round #262 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901786,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 251239808,
-                        "url": "https://codeforces.com/contest/460/submission/251239808",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 19861375,
-            "date": "2020-05-28T16:35:00",
-            "event": "Educational Codeforces Round 88 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901787,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 251237039,
-                        "url": "https://codeforces.com/contest/1359/submission/251237039",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 19234092,
-            "date": "2020-04-26T16:35:00",
-            "event": "Educational Codeforces Round 86 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901788,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 251236617,
-                        "url": "https://codeforces.com/contest/1342/submission/251236617",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 4209489,
-            "date": "2016-01-23T17:35:00",
-            "event": "Codeforces Round #340 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901790,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 251032049,
-                        "url": "https://codeforces.com/contest/617/submission/251032049",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 7610038,
-            "date": "2017-03-18T17:35:00",
-            "event": "Codeforces Round #405 (rated, Div. 2, based on VK Cup 2017 Round 1)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901791,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 250980552,
-                        "url": "https://codeforces.com/contest/791/submission/250980552",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 41174545,
-            "date": "2023-03-02T16:50:00",
-            "event": "Codeforces Round 855 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901792,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 250589221,
-                        "url": "https://codeforces.com/contest/1800/submission/250589221",
-                        "verdict": "OK"
-                    }
-                },
-                "C1": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 250579071,
-                        "url": "https://codeforces.com/contest/1800/submission/250579071",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 6636034,
-            "date": "2016-12-19T18:35:00",
-            "event": "Codeforces Round #388 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901794,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 250450592,
-                        "url": "https://codeforces.com/contest/749/submission/250450592",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 49494502,
-            "date": "2024-02-06T17:00:00",
-            "event": "Codeforces Round 923 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 56223900,
-            "more_fields": null,
-            "new_rating": 837,
-            "old_rating": 774,
-            "place": 23520,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 245122363,
-                    "time": "00:24",
-                    "time_in_seconds": 1452,
-                    "url": "https://codeforces.com/contest/1927/submission/245122363",
-                    "verdict": "OK"
-                },
-                "B": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 250448137,
-                        "url": "https://codeforces.com/contest/1927/submission/250448137",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": 63,
-            "score": 1.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 49633450,
-            "date": "2024-02-15T16:35:00",
-            "event": "Codeforces Round 926 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901795,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 250446975,
-                        "url": "https://codeforces.com/contest/1929/submission/250446975",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 37628943,
-            "date": "2022-09-29T16:35:00",
-            "event": "Educational Codeforces Round 136 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901796,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 250285679,
-                        "url": "https://codeforces.com/contest/1739/submission/250285679",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623948,
-            "date": "2011-01-31T18:00:00",
-            "event": "Codeforces Beta Round #54 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62901797,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 241227920,
-                        "url": "https://codeforces.com/contest/58/submission/241227920",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 20642198,
-            "date": "2020-07-12T17:15:00",
-            "event": "Educational Codeforces Round 91 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66464774,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": null,
-                        "result": "-",
-                        "submission_id": 272203811,
-                        "test": 1,
-                        "url": "https://codeforces.com/contest/1380/submission/272203811",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 39979248,
-            "date": "2023-02-09T16:35:00",
-            "event": "Codeforces Round 851 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66464775,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 272203808,
-                        "url": "https://codeforces.com/contest/1788/submission/272203808",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 29983906,
-            "date": "2021-10-24T12:35:00",
-            "event": "Codeforces Round #750 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66464776,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 272202274,
-                        "url": "https://codeforces.com/contest/1582/submission/272202274",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 5623672,
-            "date": "2013-08-26T17:30:00",
-            "event": "Codeforces Round #197 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 64071064,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 262617498,
-                        "url": "https://codeforces.com/contest/339/submission/262617498",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 44402278,
-            "date": "2023-06-29T16:35:00",
-            "event": "Educational Codeforces Round 151 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 64071066,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 262423142,
-                        "url": "https://codeforces.com/contest/1845/submission/262423142",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 51074877,
-            "date": "2024-04-21T16:50:00",
-            "event": "Codeforces Round 940 (Div. 2) and CodeCraft-23",
-            "handle": "Amritanshu_Barpanda",
-            "id": 64071067,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 262172059,
-                        "url": "https://codeforces.com/contest/1957/submission/262172059",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 55455594,
-            "date": "2024-12-08T16:35:00",
-            "event": "Codeforces Round 992 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 72498193,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "PyPy 3",
-                        "partial": false,
-                        "result": "-1",
-                        "submission_id": 295914085,
-                        "test": 2,
-                        "url": "https://codeforces.com/contest/2040/submission/295914085",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 47944024,
-            "date": "2023-11-24T16:35:00",
-            "event": "Educational Codeforces Round 158 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 65898473,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 268074654,
-                        "url": "https://codeforces.com/contest/1901/submission/268074654",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 48016066,
-            "date": "2023-11-30T18:50:00",
-            "event": "Codeforces Round 912 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 65898474,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 268049526,
-                        "url": "https://codeforces.com/contest/1903/submission/268049526",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 48667715,
-            "date": "2023-12-30T16:50:00",
-            "event": "Good Bye 2023",
-            "handle": "Amritanshu_Barpanda",
-            "id": 55350877,
-            "more_fields": null,
-            "new_rating": 627,
-            "old_rating": 409,
-            "place": 15199,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": 75.0,
-                        "submission_id": 239863525,
-                        "url": "https://codeforces.com/contest/1916/submission/239863525",
-                        "verdict": "OK"
-                    }
-                },
-                "B": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "-1",
-                    "submission_id": 239674150,
-                    "test": 1,
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": 225.0,
-                        "submission_id": 239864326,
-                        "url": "https://codeforces.com/contest/1916/submission/239864326",
-                        "verdict": "OK"
-                    },
-                    "url": "https://codeforces.com/contest/1916/submission/239674150",
-                    "verdict": "WA"
-                }
-            },
-            "rating_change": 218,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 50659481,
-            "date": "2024-04-01T16:35:00",
-            "event": "April Fools Day Contest 2024",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62757893,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 255087893,
-                        "url": "https://codeforces.com/contest/1952/submission/255087893",
-                        "verdict": "OK"
-                    }
-                },
-                "B": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 255086718,
-                        "url": "https://codeforces.com/contest/1952/submission/255086718",
-                        "verdict": "OK"
-                    }
-                },
-                "D": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 255088130,
-                        "url": "https://codeforces.com/contest/1952/submission/255088130",
-                        "verdict": "OK"
-                    }
-                },
-                "J": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+3",
-                        "submission_id": 255087776,
-                        "url": "https://codeforces.com/contest/1952/submission/255087776",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 48579004,
-            "date": "2023-12-28T17:05:00",
-            "event": "Codeforces Round 918 (Div. 4)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 55309240,
-            "more_fields": null,
-            "new_rating": 411,
-            "old_rating": 0,
-            "place": 15306,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 239281054,
-                    "time": "00:29",
-                    "time_in_seconds": 1790,
-                    "url": "https://codeforces.com/contest/1915/submission/239281054",
-                    "verdict": "OK"
-                },
-                "B": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 239258617,
-                    "time": "00:16",
-                    "time_in_seconds": 997,
-                    "url": "https://codeforces.com/contest/1915/submission/239258617",
-                    "verdict": "OK"
-                },
-                "C": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 239274065,
-                    "time": "00:25",
-                    "time_in_seconds": 1511,
-                    "url": "https://codeforces.com/contest/1915/submission/239274065",
-                    "verdict": "OK"
-                },
-                "D": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "-1",
-                    "submission_id": 239355427,
-                    "test": 3,
-                    "url": "https://codeforces.com/contest/1915/submission/239355427",
-                    "verdict": "TLE"
-                },
-                "E": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "-1",
-                    "submission_id": 239373003,
-                    "test": 1,
-                    "url": "https://codeforces.com/contest/1915/submission/239373003",
-                    "verdict": "WA"
-                }
-            },
-            "rating_change": 411,
-            "score": 3.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 48704231,
-            "date": "2024-01-06T17:05:00",
-            "event": "Hello 2024",
-            "handle": "Amritanshu_Barpanda",
-            "id": 55490190,
-            "more_fields": null,
-            "new_rating": 774,
-            "old_rating": 629,
-            "place": 19080,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": 232.0,
-                    "submission_id": 240529541,
-                    "time": "00:23",
-                    "time_in_seconds": 1415,
-                    "url": "https://codeforces.com/contest/1919/submission/240529541",
-                    "verdict": "OK"
-                }
-            },
-            "rating_change": 145,
-            "score": 232.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 50343783,
-            "date": "2024-03-19T10:20:00",
-            "event": "Codeforces Round 935 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62406315,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 252606326,
-                        "url": "https://codeforces.com/contest/1945/submission/252606326",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 48575837,
-            "date": "2023-12-18T16:35:00",
-            "event": "Educational Codeforces Round 160 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 63706065,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 259921781,
-                        "url": "https://codeforces.com/contest/1913/submission/259921781",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 47974075,
-            "date": "2023-11-26T16:35:00",
-            "event": "Codeforces Round 911 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 65907583,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 268256839,
-                        "url": "https://codeforces.com/contest/1900/submission/268256839",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 49441586,
-            "date": "2024-02-19T16:50:00",
-            "event": "Codeforces Round 928 (Div. 4)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 59683979,
-            "more_fields": null,
-            "new_rating": 976,
-            "old_rating": 926,
-            "place": 14247,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 247246538,
-                    "time": "00:10",
-                    "time_in_seconds": 612,
-                    "url": "https://codeforces.com/contest/1926/submission/247246538",
-                    "verdict": "OK"
-                },
-                "B": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 247273030,
-                    "time": "00:26",
-                    "time_in_seconds": 1598,
-                    "url": "https://codeforces.com/contest/1926/submission/247273030",
-                    "verdict": "OK"
-                }
-            },
-            "rating_change": 50,
-            "score": 2.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 52283130,
-            "date": "2024-06-30T17:35:00",
-            "event": "EPIC Institute of Technology Round Summer 2024 (Div. 1 + Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 65911122,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": 75.0,
-                        "submission_id": 268462749,
-                        "url": "https://codeforces.com/contest/1987/submission/268462749",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 47614570,
-            "date": "2023-11-25T17:20:00",
-            "event": "CodeTON Round 7 (Div. 1 + Div. 2, Rated, Prizes!)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 65912472,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 268516038,
-                        "url": "https://codeforces.com/contest/1896/submission/268516038",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 48138492,
-            "date": "2023-12-09T18:05:00",
-            "event": "Codeforces Round 914 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 64071065,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 268413080,
-                        "test": 2,
-                        "url": "https://codeforces.com/contest/1904/submission/268413080",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 47834104,
-            "date": "2023-11-17T16:50:00",
-            "event": "Codeforces Round 909 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 65912473,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "binary": true,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 268412217,
-                        "url": "https://codeforces.com/contest/1899/submission/268412217",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 50358071,
-            "date": "2024-03-22T16:35:00",
-            "event": "Codeforces Round 936 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62419888,
-            "more_fields": null,
-            "new_rating": 898,
-            "old_rating": 875,
-            "place": 10365,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": 458.0,
-                    "submission_id": 252760553,
-                    "time": "00:21",
-                    "time_in_seconds": 1277,
-                    "url": "https://codeforces.com/contest/1946/submission/252760553",
-                    "verdict": "OK"
-                }
-            },
-            "rating_change": 23,
-            "score": 458.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 49957437,
-            "date": "2024-03-05T16:35:00",
-            "event": "Codeforces Round 932 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62069120,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "-1",
-                        "submission_id": 250511196,
-                        "test": 1,
-                        "url": "https://codeforces.com/contest/1935/submission/250511196",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 52449440,
-            "date": "2024-07-20T16:35:00",
-            "event": "Codeforces Round 960 (Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66534814,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": 150.0,
-                        "submission_id": 272850910,
-                        "url": "https://codeforces.com/contest/1990/submission/272850910",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 20516136,
-            "date": "2020-06-25T16:35:00",
-            "event": "Educational Codeforces Round 90 (Rated for Div. 2)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66535355,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "B": {
-                    "upsolving": {
-                        "binary": false,
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": null,
-                        "result": "-",
-                        "submission_id": 272488783,
-                        "test": 2,
-                        "url": "https://codeforces.com/contest/1373/submission/272488783",
-                        "verdict": "WA"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 50276164,
-            "date": "2024-03-11T16:50:00",
-            "event": "Codeforces Round 933 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 62099341,
-            "more_fields": null,
-            "new_rating": 875,
-            "old_rating": 895,
-            "place": 19357,
-            "problems": {
-                "A": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+",
-                    "submission_id": 250739197,
-                    "time": "00:55",
-                    "time_in_seconds": 3300,
-                    "url": "https://codeforces.com/contest/1941/submission/250739197",
-                    "verdict": "OK"
-                },
-                "B": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "-1",
-                    "submission_id": 250758688,
-                    "test": 2,
-                    "url": "https://codeforces.com/contest/1941/submission/250758688",
-                    "verdict": "WA"
-                },
-                "C": {
-                    "language": "Python 3",
-                    "partial": false,
-                    "result": "+2",
-                    "submission_id": 250805833,
-                    "time": "02:06",
-                    "time_in_seconds": 7586,
-                    "url": "https://codeforces.com/contest/1941/submission/250805833",
-                    "verdict": "OK"
-                }
-            },
-            "rating_change": -20,
-            "score": 2.0
-        },
-        {
-            "account_id": 6120505,
-            "contest_id": 52832244,
-            "date": "2024-07-26T17:05:00",
-            "event": "Codeforces Round 962 (Div. 3)",
-            "handle": "Amritanshu_Barpanda",
-            "id": 66536373,
-            "more_fields": null,
-            "new_rating": null,
-            "old_rating": null,
-            "place": null,
-            "problems": {
-                "A": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 272907253,
-                        "time": "00:02",
-                        "time_in_seconds": 143,
-                        "url": "https://codeforces.com/contest/1996/submission/272907253",
-                        "verdict": "OK"
-                    }
-                },
-                "B": {
-                    "upsolving": {
-                        "external_solution": true,
-                        "language": "Python 3",
-                        "partial": false,
-                        "result": "+",
-                        "submission_id": 272910318,
-                        "time": "00:28",
-                        "time_in_seconds": 1733,
-                        "url": "https://codeforces.com/contest/1996/submission/272910318",
-                        "verdict": "OK"
-                    }
-                }
-            },
-            "rating_change": null,
-            "score": 0.0
+            "archive_url": null,
+            "contest_ids": [
+                53149130
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 239007,
+            "kinds": [],
+            "n_accepted": 24207,
+            "n_attempts": 29113,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 30335,
+            "name": "Primary Task",
+            "note": null,
+            "rating": 629,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/2000/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                53149130
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 239008,
+            "kinds": [],
+            "n_accepted": 22637,
+            "n_attempts": 26109,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 30335,
+            "name": "Seating in a Bus",
+            "note": null,
+            "rating": 700,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/2000/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                9866916
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 174367,
+            "kinds": [],
+            "n_accepted": 3974,
+            "n_attempts": 4055,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 4119,
+            "name": "Scarborough Fair",
+            "note": null,
+            "rating": 637,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/897/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                9393471
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 171647,
+            "kinds": [],
+            "n_accepted": 1997,
+            "n_attempts": 2018,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 2133,
+            "name": "Chores",
+            "note": null,
+            "rating": 773,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "http://codeforces.com/contest/873/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                52721362
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 230211,
+            "kinds": [],
+            "n_accepted": 12650,
+            "n_attempts": 14143,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 14380,
+            "name": "Diverse Game",
+            "note": null,
+            "rating": 610,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": true,
+            "system_reject": false,
+            "system_solved": true,
+            "url": "https://codeforces.com/contest/1994/problem/A",
+            "user_reject": false,
+            "user_solved": true,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                53076246
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 232033,
+            "kinds": [],
+            "n_accepted": 24472,
+            "n_attempts": 27361,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 34419,
+            "name": "Showering",
+            "note": null,
+            "rating": 673,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "C",
+            "slug": null,
+            "solved": true,
+            "system_reject": false,
+            "system_solved": true,
+            "url": "https://codeforces.com/contest/1999/problem/C",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                53152407
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 239702,
+            "kinds": [],
+            "n_accepted": 16578,
+            "n_attempts": 18734,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 21974,
+            "name": "Generate Permutation",
+            "note": null,
+            "rating": 754,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/2001/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                46254981
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 210806,
+            "kinds": [],
+            "n_accepted": 13369,
+            "n_attempts": 16921,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 18549,
+            "name": "Don't Try to Count",
+            "note": null,
+            "rating": 697,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": true,
+            "system_reject": false,
+            "system_solved": true,
+            "url": "https://codeforces.com/contest/1881/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                46153038
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 210495,
+            "kinds": [],
+            "n_accepted": 9935,
+            "n_attempts": 12613,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 13139,
+            "name": "Jellyfish and Undertale",
+            "note": null,
+            "rating": 757,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1875/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                51712418
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 224121,
+            "kinds": [],
+            "n_accepted": 11093,
+            "n_attempts": 12852,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 13375,
+            "name": "Bazoka and Mocha's Array",
+            "note": null,
+            "rating": 695,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1975/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                53535191
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 240067,
+            "kinds": [],
+            "n_accepted": 13053,
+            "n_attempts": 14750,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 15743,
+            "name": "Dora's Set",
+            "note": null,
+            "rating": 645,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/2007/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                31909070
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 169969,
+            "kinds": [],
+            "n_accepted": 9272,
+            "n_attempts": 11495,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 11812,
+            "name": "Equal or Not Equal",
+            "note": null,
+            "rating": 715,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "http://codeforces.com/contest/1620/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                52832244
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 230335,
+            "kinds": [],
+            "n_accepted": 21469,
+            "n_attempts": 23566,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 27685,
+            "name": "Scale",
+            "note": null,
+            "rating": 618,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": true,
+            "system_reject": false,
+            "system_solved": true,
+            "url": "https://codeforces.com/contest/1996/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                24393796
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 169444,
+            "kinds": [],
+            "n_accepted": 11414,
+            "n_attempts": 12391,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 13519,
+            "name": "Puzzle From the Future",
+            "note": null,
+            "rating": 597,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "http://codeforces.com/contest/1474/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                53172412
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 238932,
+            "kinds": [],
+            "n_accepted": 11901,
+            "n_attempts": 13268,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 14088,
+            "name": "Distanced Coloring",
+            "note": null,
+            "rating": 752,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/2002/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                48579004
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 213076,
+            "kinds": [],
+            "n_accepted": 19870,
+            "n_attempts": 25244,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 29543,
+            "name": "Can I Square?",
+            "note": null,
+            "rating": 619,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "C",
+            "slug": null,
+            "solved": true,
+            "system_reject": false,
+            "system_solved": true,
+            "url": "https://codeforces.com/contest/1915/problem/C",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                41174545
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 192653,
+            "kinds": [],
+            "n_accepted": 11806,
+            "n_attempts": 17100,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 17677,
+            "name": "Is It a Cat?",
+            "note": null,
+            "rating": 748,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": true,
+            "system_reject": false,
+            "system_solved": true,
+            "url": "https://codeforces.com/contest/1800/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                40089043
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 189944,
+            "kinds": [],
+            "n_accepted": 7888,
+            "n_attempts": 9567,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 10576,
+            "name": "Serval and Mocha's Array",
+            "note": null,
+            "rating": 748,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1789/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                40199562
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 189226,
+            "kinds": [],
+            "n_accepted": 13906,
+            "n_attempts": 16811,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 20824,
+            "name": "Taisia and Dice",
+            "note": null,
+            "rating": 700,
+            "reject": true,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": false,
+            "system_reject": true,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1790/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                38846764
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 187075,
+            "kinds": [],
+            "n_accepted": 7645,
+            "n_attempts": 8350,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 12654,
+            "name": "Absolute Maximization",
+            "note": null,
+            "rating": 736,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1763/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                40621719
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 189575,
+            "kinds": [],
+            "n_accepted": 7643,
+            "n_attempts": 9300,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 9721,
+            "name": "Yet Another Promotion",
+            "note": null,
+            "rating": 711,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1793/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                53261631
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 239930,
+            "kinds": [],
+            "n_accepted": 15621,
+            "n_attempts": 18158,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 20681,
+            "name": "Turtle and Piggy Are Playing a Game 2",
+            "note": null,
+            "rating": 754,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/2003/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                53298540
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 239537,
+            "kinds": [],
+            "n_accepted": 17971,
+            "n_attempts": 20674,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 21258,
+            "name": "Closest Point",
+            "note": null,
+            "rating": 636,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/2004/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                47460784
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 211464,
+            "kinds": [],
+            "n_accepted": 11549,
+            "n_attempts": 12149,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 14760,
+            "name": "Points and Minimum Distance",
+            "note": null,
+            "rating": 632,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1895/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                52449440
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 230258,
+            "kinds": [],
+            "n_accepted": 12101,
+            "n_attempts": 15003,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 15238,
+            "name": "Submission Bait",
+            "note": null,
+            "rating": 752,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": true,
+            "system_reject": false,
+            "system_solved": true,
+            "url": "https://codeforces.com/contest/1990/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                5623959
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 172066,
+            "kinds": [],
+            "n_accepted": 478,
+            "n_attempts": 505,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 506,
+            "name": "Triangular numbers",
+            "note": null,
+            "rating": 784,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/47/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                10391392
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 169338,
+            "kinds": [],
+            "n_accepted": 4274,
+            "n_attempts": 4435,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 4556,
+            "name": "Palindromic Supersequence",
+            "note": null,
+            "rating": 781,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/932/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                23438547
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 171078,
+            "kinds": [],
+            "n_accepted": 6780,
+            "n_attempts": 8230,
+            "n_hidden": 0,
+            "n_partial": 11,
+            "n_total": 8505,
+            "name": "Red-Blue Shuffle",
+            "note": null,
+            "rating": 686,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1459/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                34993383
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 179880,
+            "kinds": [],
+            "n_accepted": 10237,
+            "n_attempts": 12119,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 16394,
+            "name": "Palindromic Indices",
+            "note": null,
+            "rating": 659,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "http://codeforces.com/contest/1682/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                18043362
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 173920,
+            "kinds": [],
+            "n_accepted": 8240,
+            "n_attempts": 8560,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 8776,
+            "name": "Add Odd or Subtract Even",
+            "note": null,
+            "rating": 655,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "http://codeforces.com/contest/1311/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                52074457
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 228025,
+            "kinds": [],
+            "n_accepted": 11741,
+            "n_attempts": 13348,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 13853,
+            "name": "Strange Splitting",
+            "note": null,
+            "rating": 649,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1984/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                34356776
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 167130,
+            "kinds": [],
+            "n_accepted": 7336,
+            "n_attempts": 8709,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 8923,
+            "name": "Prof. Slim",
+            "note": null,
+            "rating": 766,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "http://codeforces.com/contest/1670/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                51917045
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 227852,
+            "kinds": [],
+            "n_accepted": 23029,
+            "n_attempts": 25549,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 29409,
+            "name": "Choosing Cubes",
+            "note": null,
+            "rating": 625,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": true,
+            "system_reject": false,
+            "system_solved": true,
+            "url": "https://codeforces.com/contest/1980/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                51614578
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 224042,
+            "kinds": [],
+            "n_accepted": 19312,
+            "n_attempts": 23109,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 24200,
+            "name": "Phone Desktop",
+            "note": null,
+            "rating": 608,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": true,
+            "system_reject": false,
+            "system_solved": true,
+            "url": "https://codeforces.com/contest/1974/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                51614578
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 224043,
+            "kinds": [],
+            "n_accepted": 18276,
+            "n_attempts": 19798,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 24200,
+            "name": "Symmetric Encoding",
+            "note": null,
+            "rating": 675,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": true,
+            "system_reject": false,
+            "system_solved": true,
+            "url": "https://codeforces.com/contest/1974/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                51344448
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 223641,
+            "kinds": [],
+            "n_accepted": 19064,
+            "n_attempts": 22713,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 25711,
+            "name": "Different String",
+            "note": null,
+            "rating": 602,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": true,
+            "system_reject": false,
+            "system_solved": true,
+            "url": "https://codeforces.com/contest/1971/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                46724247
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 211309,
+            "kinds": [],
+            "n_accepted": 9403,
+            "n_attempts": 10428,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 11931,
+            "name": "Qingshan Loves Strings",
+            "note": null,
+            "rating": 660,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1890/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                46254981
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 210807,
+            "kinds": [],
+            "n_accepted": 12356,
+            "n_attempts": 14409,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 18549,
+            "name": "Three Threadlets",
+            "note": null,
+            "rating": 762,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1881/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                49957437
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 221127,
+            "kinds": [],
+            "n_accepted": 16127,
+            "n_attempts": 19477,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 19729,
+            "name": "Entertainment in MAC",
+            "note": null,
+            "rating": 668,
+            "reject": true,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": true,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1935/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                45651796
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 208797,
+            "kinds": [],
+            "n_accepted": 10550,
+            "n_attempts": 12429,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 12696,
+            "name": "green_gold_dog, array and permutation",
+            "note": null,
+            "rating": 659,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1867/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                35335561
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 199642,
+            "kinds": [],
+            "n_accepted": 14122,
+            "n_attempts": 14671,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 20296,
+            "name": "Restoring the Duration of Tasks",
+            "note": null,
+            "rating": 715,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "C",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1690/problem/C",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                46178951
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 210402,
+            "kinds": [],
+            "n_accepted": 18231,
+            "n_attempts": 20322,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 24252,
+            "name": "Aleksa and Stack",
+            "note": null,
+            "rating": 622,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1878/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                42431850
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 194907,
+            "kinds": [],
+            "n_accepted": 5776,
+            "n_attempts": 6285,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 7051,
+            "name": "Politics",
+            "note": null,
+            "rating": 666,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1818/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                41516911
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 199615,
+            "kinds": [],
+            "n_accepted": 9271,
+            "n_attempts": 10839,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 11193,
+            "name": "Li Hua and Maze",
+            "note": null,
+            "rating": 611,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1797/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                41353220
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 193702,
+            "kinds": [],
+            "n_accepted": 10133,
+            "n_attempts": 11371,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 12294,
+            "name": "The String Has a Target",
+            "note": null,
+            "rating": 643,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1805/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                41669011
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 193598,
+            "kinds": [],
+            "n_accepted": 9584,
+            "n_attempts": 10375,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 12302,
+            "name": "Candies",
+            "note": null,
+            "rating": 727,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1810/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                49005458
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 213376,
+            "kinds": [],
+            "n_accepted": 19704,
+            "n_attempts": 21787,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 26010,
+            "name": "Arranging Cats",
+            "note": null,
+            "rating": 602,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "B",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1921/problem/B",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                45552546
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 207757,
+            "kinds": [],
+            "n_accepted": 10920,
+            "n_attempts": 13337,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 13536,
+            "name": "Channel",
+            "note": null,
+            "rating": 658,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1863/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                5623754
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 169627,
+            "kinds": [],
+            "n_accepted": 1393,
+            "n_attempts": 1434,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 1446,
+            "name": "Greg's Workout",
+            "note": null,
+            "rating": 701,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "http://codeforces.com/contest/255/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
+        },
+        {
+            "archive_url": null,
+            "contest_ids": [
+                48238880
+            ],
+            "divisions": [],
+            "favorite": false,
+            "id": 212998,
+            "kinds": [],
+            "n_accepted": 9314,
+            "n_attempts": 10614,
+            "n_hidden": 0,
+            "n_partial": 0,
+            "n_total": 10976,
+            "name": "Distinct Buttons",
+            "note": null,
+            "rating": 632,
+            "reject": false,
+            "resource": "codeforces.com",
+            "resource_id": 1,
+            "short": "A",
+            "slug": null,
+            "solved": false,
+            "system_reject": false,
+            "system_solved": false,
+            "url": "https://codeforces.com/contest/1909/problem/A",
+            "user_reject": false,
+            "user_solved": false,
+            "user_todo": false
         }
     ]
 }
