@@ -134,7 +134,6 @@ def access_user_data(username:str, resource_id:int)->str:
     """
     configure()
     s = requests.Session()
-    # username = "{os.getenv("username")}_Barpanda"
     method = get_user_account_by_handle(username,resource_id)
     account_by_handle = pre_processing(s, method)
     final = json.dumps(account_by_handle, indent=4)
@@ -420,19 +419,6 @@ def pre_processing(session, url):
         print(f"An unexpected error occurred: {err}")
     return None
 
-def save_to_file(data):
-    """
-    Saves the given data to a JSON file.
-    This function takes the input data, converts it to a JSON string, and writes it to 
-    a file named "clist_result.json". If the file does not already exist, it will be created.
-    The function is useful for persisting data that was retrieved, allowing it to be 
-    loaded later for further processing or analysis.
-    
-    Parameters:
-    - data (str): The data to save, which is expected to be a string.
-    """
-    with open("clist_result.json", "w") as outfile:
-        outfile.write(data)
 
 def processing(handle: str, method: int, resource_id: int, rating_delta: int = 200):
     """
@@ -482,10 +468,9 @@ def processing(handle: str, method: int, resource_id: int, rating_delta: int = 2
         """
         rating = processing(handle, 100, resource_id)
         # print("rating = ", rating)
-        lt = rating  # + rating_delta
-        gt = rating - rating_delta
+        lt = rating + rating_delta
+        gt = rating # - rating_delta
         data = access_problems_data(resource_id, lt, gt)
-        save_to_file(data)
         json_data = json.loads(data)
         answer = json_data["objects"]
         return answer
@@ -501,9 +486,8 @@ def processing(handle: str, method: int, resource_id: int, rating_delta: int = 2
             dict: User information in JSON format.
         """
         data = access_user_data(handle, resource_id)
-        save_to_file(data)
         json_data = json.loads(data)
-        answer:dict = json_data["objects"][0]
+        answer = json_data["objects"][0]
         return answer
     if method == 2:  # int
         """
@@ -528,7 +512,6 @@ def processing(handle: str, method: int, resource_id: int, rating_delta: int = 2
             list: Coder data in JSON format.
         """
         data = access_coder_data(handle)
-        save_to_file(data)
         json_data = json.loads(data)
         answer = json_data["objects"]
         return json_data
@@ -543,7 +526,6 @@ def processing(handle: str, method: int, resource_id: int, rating_delta: int = 2
             dict: Resource data in JSON format.
         """
         data = access_resource_data(resource_id)
-        save_to_file(data)
         json_data = json.loads(data)
         answer = json_data
         return answer
@@ -570,7 +552,6 @@ def processing(handle: str, method: int, resource_id: int, rating_delta: int = 2
             list: Problems solved data in JSON format.
         """
         data = no_of_problems_solved(handle, resource_id)
-        save_to_file(data)
         json_data = json.loads(data)
         answer = json_data["objects"]
         return answer
