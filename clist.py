@@ -2,6 +2,7 @@ import json
 import random
 import clist_api
 import clist_search #todo: List all the resources and their ids sorted according to their popularity(n_accounts)
+import timeit
 
 '''
 codeforces = 1
@@ -36,12 +37,6 @@ class Main:
             Fetches a list of problems near the user's rating, filters unsolved problems, 
             and returns 10 random problems with details.
 
-            How it works:
-            - Fetches problems within a `rating_delta` range around the user's rating.
-            - Removes problems already solved by the user.
-            - Randomly selects 10 problems from the remaining list.
-            - Prepares and returns a list of dictionaries containing details of each problem.
-            
             Args:
                 method (int): The method identifier (101) to fetch problems.
             
@@ -52,26 +47,24 @@ class Main:
                     - "Problem rating": The difficulty rating of the problem.
             """
             rating_delta = 200
-            problem_list = clist_api.main(self.handle,101,self.resource_id,rating_delta)
-            # problem_list.sort(key=lambda x: x["rating"],reverse=False)
+            problem_list = clist_api.main(self.handle, 101, self.resource_id, rating_delta)
 
-            for i in problem_list:
-                if i["user_solved"]=="true":
-                    problem_list.pop(i)
+            # Filter out solved problems
+            unsolved_problems = [problem for problem in problem_list if problem["user_solved"] != "true"]
 
-            l = len(problem_list)
-            random_question_numbers_list=  random.sample(range(l), 10)
-            # print(random_question_numbers_list)
-            return_list = []
-            for i in random_question_numbers_list:
-                # print_problem_info(problem_list[i])
-                dict_with_data_of_one_question_of_the_output = {}
-                problem_data = problem_list[i]
-                dict_with_data_of_one_question_of_the_output["Problem name"] = problem_data["name"]
-                dict_with_data_of_one_question_of_the_output["Problem link"] = problem_data["url"]
-                dict_with_data_of_one_question_of_the_output["Problem rating"] = problem_data["rating"]
-                return_list.append(dict_with_data_of_one_question_of_the_output)
-            # print(return_list)
+            # Sample up to 10 random problems from the filtered list
+            sampled_problems = random.sample(unsolved_problems, min(len(unsolved_problems), 10))
+
+            # Prepare the return list
+            return_list = [
+                {
+                    "Problem name": problem["name"],
+                    "Problem link": problem["url"],
+                    "Problem rating": problem["rating"],
+                }
+                for problem in sampled_problems
+            ]
+
             return return_list
         elif method == 100: # dict #? Retrieve a user's rating for a specific resource
             return {"User Rating" : clist_api.main(self.handle,100,self.resource_id)}
@@ -82,3 +75,9 @@ class Main:
         # elif method == 3: 
         else:
             return clist_api.main(self.handle,self.method,self.resource_id)
+
+if __name__=="__main__":
+    start = timeit.default_timer()
+    print(Main("Amritanshu_Barpanda",101,1).return_item(101))
+    end = timeit.default_timer()
+    print(f"Time taken to execute the code is {end-start}")
