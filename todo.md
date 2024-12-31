@@ -1,1 +1,2 @@
-- method = 1, resource_id = 2
+- ~~Distribute 10 as 2 easy (-100,0), 5 mid (0,+200), 3 tough (+200,+400)~
+- ~~Make only one API call for each method~
