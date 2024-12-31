@@ -55,26 +55,12 @@ class Main:
             problem_list = clist_api.main(self.handle,101,self.resource_id,rating_delta)
             # problem_list.sort(key=lambda x: x["rating"],reverse=False)
 
-            easy = []
-            mid = []
-            tough = []
-            # rating = clist_api.main(self.handle,100,self.resource_id)
-
             for i in problem_list:
                 if i["user_solved"]=="true":
                     problem_list.pop(i)
-                '''
-                if i["rating"]<=rating and i["rating"]>=rating-200:
-                    easy.append(i)
-                if i["rating"]>=rating and i["rating"]<=rating+200:
-                    mid.append(i)
-                if i["rating"]>=rating+200:
-                    tough.append(i)
-                '''
 
             l = len(problem_list)
             random_question_numbers_list=  random.sample(range(l), 10)
-            # random_question_numbers_list=  random.sample(range(l), 10)
             # print(random_question_numbers_list)
             return_list = []
             for i in random_question_numbers_list:
