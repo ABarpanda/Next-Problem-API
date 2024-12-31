@@ -50,21 +50,30 @@ class Main:
             problem_list = clist_api.main(self.handle, 101, self.resource_id, rating_delta)
 
             # Filter out solved problems
-            unsolved_problems = [problem for problem in problem_list if problem["user_solved"] != "true"]
+            unsolved_problems = []
+            for problem in problem_list:
+                if problem["user_solved"] != "true":
+                    unsolved_problems.append(problem)
 
-            # Sample up to 10 random problems from the filtered list
-            sampled_problems = random.sample(unsolved_problems, min(len(unsolved_problems), 10))
+            # print(f"Unsolved problems: {unsolved_problems}")
+
+            # Handle case where there are fewer than 10 problems
+            num_to_sample = min(len(unsolved_problems), 10)
+
+            # Randomly select problems
+            sampled_problems = random.sample(unsolved_problems, num_to_sample)
+            # print(f"Sampled problems: {sampled_problems}")
 
             # Prepare the return list
-            return_list = [
-                {
+            return_list = []
+            for problem in sampled_problems:
+                dict_with_data_of_one_question_of_the_output = {
                     "Problem name": problem["name"],
                     "Problem link": problem["url"],
                     "Problem rating": problem["rating"],
                 }
-                for problem in sampled_problems
-            ]
-
+                return_list.append(dict_with_data_of_one_question_of_the_output)
+ 
             return return_list
         elif method == 100: # dict #? Retrieve a user's rating for a specific resource
             return {"User Rating" : clist_api.main(self.handle,100,self.resource_id)}
