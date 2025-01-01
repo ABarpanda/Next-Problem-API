@@ -467,6 +467,8 @@ def processing(handle: str, method: int, resource_id: int, rating_delta: int = 2
             list: A list of problems in JSON format within the specified rating range.
         """
         rating = processing(handle, 100, resource_id)
+        if rating==0:
+            return [{"name":"No data available","url":"No data available","rating":"No data available"}]
         # print("rating = ", rating)
         lt = rating + rating_delta
         gt = rating # - rating_delta

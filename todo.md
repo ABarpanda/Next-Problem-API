@@ -1,5 +1,5 @@
 - [ ] Make only one API call for each method
 - [ ] Improve UI
-- [ ] Make and add logo
+- [x] Make and add logo
 - [ ] Add dark/light mode
 - [ ] Distribute 10 as 2 easy (-100,0), 5 mid (0,+200), 3 tough (+200,+400)

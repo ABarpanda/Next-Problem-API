@@ -49,6 +49,9 @@ class Main:
             rating_delta = 200
             problem_list = clist_api.main(self.handle, 101, self.resource_id, rating_delta)
 
+            if len(problem_list) == 1:
+                return [{"message": "No data found"}]
+
             # Filter out solved problems
             unsolved_problems = []
             for problem in problem_list:
