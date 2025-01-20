@@ -48,11 +48,11 @@ class Main:
             """
             rating_delta = 200
             problem_list = clist_api.main(self.handle, 101, self.resource_id, rating_delta)
+            # print(problem_list)
 
             if len(problem_list) == 1:
-                return [{"message": "No data found"}]
+                return [{"Problem name": "User not Found", "Problem rating": "User not Found", "Problem link": "/"}]
 
-            # Filter out solved problems
             unsolved_problems = []
             for problem in problem_list:
                 if problem["user_solved"] != "true":
@@ -60,14 +60,11 @@ class Main:
 
             # print(f"Unsolved problems: {unsolved_problems}")
 
-            # Handle case where there are fewer than 10 problems
             num_to_sample = min(len(unsolved_problems), 10)
 
-            # Randomly select problems
             sampled_problems = random.sample(unsolved_problems, num_to_sample)
             # print(f"Sampled problems: {sampled_problems}")
 
-            # Prepare the return list
             return_list = []
             for problem in sampled_problems:
                 dict_with_data_of_one_question_of_the_output = {

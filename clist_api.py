@@ -2,6 +2,7 @@ import requests
 from dotenv import load_dotenv
 import json
 import os
+import codeforces_hashing
 
 # region # User processes
 
@@ -26,6 +27,9 @@ def get_user_account_by_handle(username:str, resource_id:int)->str:
     >>> get_user_account_by_handle("example_user", 123)
     """
     try:
+        # if resource_id!=1:
+        #     url = codeforces_hashing.make_request()
+        # else:
         url = f"https://clist.by/api/v4/json/account/?username={os.getenv("clist_username")}&api_key={os.getenv("clist_api_key")}&handle={username}&resource_id={resource_id}"
         # print(url)
         return url
@@ -230,7 +234,7 @@ def access_resource_data(resource_id:int)->str:
 
 # region # Problems and coder processes
 
-def get_problems_by_handle(handle:str, resource_id:int,lt:int, gt:int,limit:int=100):
+def get_problems_by_handle(handle:str, resource_id:int,lt:int, gt:int,limit:int=50):
     """
     Generates a URL to fetch problems associated with a specific handle and resource, filtered by rating range.
 
@@ -250,14 +254,14 @@ def get_problems_by_handle(handle:str, resource_id:int,lt:int, gt:int,limit:int=
     """
     try:
         resource_name = get_resource_name_by_id(resource_id)
-        url = f"https://clist.by/api/v4/json/problem/?username={os.getenv("clist_username")}&api_key={os.getenv("clist_api_key")}&limit={limit}&total_count=true&resource={resource_name}&rating__gt={gt}&rating__lt={lt}"
+        url = f"https://clist.by/api/v4/json/problem/?username={os.getenv("clist_username")}&api_key={os.getenv("clist_api_key")}&limit={limit}&user_solved=false&total_count=true&resource={resource_name}&rating__gt={gt}&rating__lt={lt}"
         # print(url)
         return url
     except:
         print(f"The problem is in get_problems_by_handle")
         return "https://clist.by/api/v4/json/"
 
-def access_problems_data(resource_id:int,lt:int,gt:int)->str:
+def access_problems_data(handle:str,resource_id:int,lt:int,gt:int)->str:
     """
     Accesses and retrieves problem data filtered by resource ID and rating range from the clist.by API.
 
@@ -274,9 +278,8 @@ def access_problems_data(resource_id:int,lt:int,gt:int)->str:
     """
     configure()
     s = requests.Session()
-    # username = "{os.getenv("username")}_Barpanda"
-    limit = 50
-    problems_url = get_problems_by_handle("Something",resource_id,lt,gt,limit)
+    limit = 10
+    problems_url = get_problems_by_handle(handle,resource_id,lt,gt,limit)
     # print(problems_url)
     problems_url_by_id = pre_processing(s, problems_url)
     final = json.dumps(problems_url_by_id, indent=4)
@@ -472,7 +475,7 @@ def processing(handle: str, method: int, resource_id: int, rating_delta: int = 2
         # print("rating = ", rating)
         lt = rating + rating_delta
         gt = rating # - rating_delta
-        data = access_problems_data(resource_id, lt, gt)
+        data = access_problems_data(handle,resource_id, lt, gt)
         json_data = json.loads(data)
         answer = json_data["objects"]
         return answer
